@@ -1,0 +1,226 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Section */
+header {
+  background-color: #000;
+  color: white;
+  padding: 20px 0;
+}
+
+.navv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.main-container {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.main-container li {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.main-container li:hover {
+  color: #ffae00;
+}
+
+/* Hero Section */
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.cnt-left {
+  max-width: 50%;
+}
+
+.cnt-left h3 {
+  font-size: 20px;
+  color: #555;
+}
+
+.cnt-left h1 {
+  font-size: 36px;
+  margin: 20px 0;
+  color: #000;
+}
+
+.btn1 {
+  background-color: #ffae00;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cnt-right img {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Top Icons Section */
+.top_icons {
+  background-color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.icons img {
+  margin: 0 10px;
+  height: 50px;
+}
+
+/* Services Section */
+.services {
+  padding: 50px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.services p {
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  color: #555;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Consultation Section */
+.consultation {
+  display: flex;
+  gap: 50px;
+  padding: 50px;
+  background-color: #fff;
+  align-items: center;
+}
+
+.consultation img {
+  max-width: 300px;
+}
+
+.consultation-content {
+  max-width: 600px;
+}
+
+.consultation-content h1 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.consultation-content h1 span {
+  color: #ffae00;
+}
+
+.consultation-content p {
+  margin: 15px 0;
+  color: #555;
+}
+
+.btn-consult {
+  background-color: #ffae00;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.contact-number {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Footer Section */
+.site-footer {
+  background-color: #111;
+  color: white;
+  padding: 40px 50px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.footer-col ul li:hover {
+  color: #ffae00;
+}
+
+.footer-col input[type="email"] {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-col p {
+  margin-top: 10px;
+  color: #bbb;
+}

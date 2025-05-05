@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(222, 216, 209);
+  padding: 10px;
+}
+
+.logo {
+  width: 80px;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+}
+li:hover {
+  color: rgb(9, 78, 255);
+  cursor: pointer;
+}
+
+.menu-container {
+  display: flex;
+  gap: 15px;
+}
+
+.banner-image {
+  width: 300px;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.banner-left {
+  width: 400px;
+  line-height: 2;
+}
+
+.btn {
+  padding: 15px 30px;
+  border: none;
+  background-color: bisque;
+  color: blue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hire-btn {
+}
+
+.roject-btn {
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  body {
+    background-color: brown;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-color: rgb(60, 215, 55);
+  }
+}

@@ -1,0 +1,20 @@
+body {
+  background: #1a1a1a;
+  color: white;
+}
+
+.placeholder-color::placeholder {
+  color: rgb(159, 159, 159) !important;
+  opacity: 1;
+}
+
+.custom-shadow {
+  box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.25) !important;
+}
+
+.nav-item {
+  font-size: 20px !important;
+}
+.nav-item:hover .nav-link {
+  color: rgba(0, 0, 255, 0.835) !important;
+}
